@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>01 - Plain Storage | Keeping secrets with JavaScript</title>
+    <meta content="Tim Taubert" name="author"/>
+    <link href="../shared/style.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:400" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1>01 - Plain Storage</h1>
+    <p>
+      This example show a very simple storage implemented using localforage as
+      the backend.
+    </p>
+    <p class="note">
+      (Please use your DevTools' storage inspector to look at storage values.)
+    </p>
+
+    <input id=load type=button value="Load from Storage">
+    <input id=save type=button value="Save to Storage">
+    <input id=paste type=button value="Paste Example Notes">
+    <input id=clear type=button value="Clear Storage">
+
+    <textarea id=text></textarea>
+    <div id=notes></div>
+    <div id=status></div>
+
+    <script src="../shared/localforage.js"></script>
+    <script src="../shared/ui.js"></script>
+    <script src="storage.js"></script>
+  </body>
+</html>

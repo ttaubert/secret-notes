@@ -1,0 +1,24 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+h1 {
+  font-family: 'Ubuntu', sans-serif !important;
+  text-transform: uppercase;
+}
+
+textarea {
+  display: block;
+  width: 600px;
+  height: 200px;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+p {
+  width: 600px;
+}
+
+.note {
+  font-weight: bold;
+}
