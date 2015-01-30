@@ -1,7 +1,7 @@
 # secret-notes
 
 This repository contains the code examples for my talk  
-[Keeping secrets with JavaScript - An Introduction to the WebCrypto API](http://timtaubert.de/blog/2014/09/keeping-secrets-with-javascript/).
+[Keeping secrets with JavaScript - An Introduction to the WebCrypto API](https://timtaubert.de/talks/keeping-secrets-with-javascript/).
 
 # notes
 
